@@ -19,7 +19,7 @@ public class DemoController {
     public void DemoController(
             @Qualifier("aquatic") Coach theCoach)
          {
-        System.out.println("In Constructor" + getClass().getSimpleName());
+        System.out.println("In Constructor now" + getClass().getSimpleName());
         myCoach=theCoach;
 
     }
