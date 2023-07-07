@@ -13,12 +13,11 @@ public class DemoController {
      private Coach myCoach;
 
 
-    //setter injection
 
 
     @Autowired
     public void DemoController(
-            @Qualifier("baseballCoach") Coach theCoach)
+            @Qualifier("aquatic") Coach theCoach)
          {
         System.out.println("In Constructor" + getClass().getSimpleName());
         myCoach=theCoach;

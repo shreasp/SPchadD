@@ -1,5 +1,7 @@
 package com.udemy.springCoreDemo.common;
 
+import org.springframework.context.annotation.Bean;
+
 public class SwimCoach implements Coach{
 
     public SwimCoach(){
