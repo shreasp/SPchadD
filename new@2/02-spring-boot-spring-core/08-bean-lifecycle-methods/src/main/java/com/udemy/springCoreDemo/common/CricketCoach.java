@@ -17,7 +17,7 @@ public class CricketCoach implements Coach {
         System.out.println("in DoMyStartupStuff() "+ getClass().getSimpleName() );
     }
 
-    // Define out destroy method
+    // Define out destroy method 
     @PreDestroy
     public void doMyCleanupStuff(){
         System.out.println("In DoMyCleanupStuff "+ getClass().getSimpleName());
