@@ -15,6 +15,6 @@ public class CricketCoach implements Coach {
 
     @Override
     public String getDailyWorkout() {
-        return "Practice Bowling for 15 mins ";
+        return "Practice Bowling now for 15 mins ";
     }
 }
