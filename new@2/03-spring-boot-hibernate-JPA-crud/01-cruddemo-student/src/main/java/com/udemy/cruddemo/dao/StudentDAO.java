@@ -4,5 +4,5 @@ import com.udemy.cruddemo.entity.Student;
 
 public interface StudentDAO {
 
-    void save(Student student);
+    void save(Student student );
 }
