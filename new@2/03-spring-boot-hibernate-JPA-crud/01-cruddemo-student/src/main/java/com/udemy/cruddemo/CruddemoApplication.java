@@ -19,7 +19,7 @@ public class CruddemoApplication {
 
 		return runner ->{
 
-			// createStudent(studentDAO);
+			//createStudent(studentDAO);
 
 			//createMultipleStudents(studentDAO);
 
@@ -46,8 +46,6 @@ public class CruddemoApplication {
 		// retrieve the student based on the primary key : id
 		System.out.println("Retriving the student with id :"+ theId);
 		Student myStudent =studentDAO.findById(theId);
-
-
 
 		// display student
 		System.out.println("Found the student :"+ myStudent);
