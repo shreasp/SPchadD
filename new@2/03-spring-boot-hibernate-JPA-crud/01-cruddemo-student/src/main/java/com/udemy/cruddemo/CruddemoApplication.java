@@ -27,8 +27,13 @@ public class CruddemoApplication {
 
 			//readStudent(studentDAO);
 
-			queryForStudents(studentDAO);
+			//queryForStudents(studentDAO);
+			
+			queryForStudentsByLastName();
 		};
+	}
+
+	private void queryForStudentsByLastName() {
 	}
 
 	private void queryForStudents(StudentDAO studentDAO) {
