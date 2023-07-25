@@ -38,6 +38,12 @@ public class CruddemoApplication {
 	}
 
 	private void deleteStudent(StudentDAO studentDAO) {
+		 int studentId= 3;
+		System.out.println("deleting student with id : "+ studentId);
+
+		studentDAO.delete(studentId);
+
+
 	}
 
 	private void updateStudent(StudentDAO studentDAO) {
