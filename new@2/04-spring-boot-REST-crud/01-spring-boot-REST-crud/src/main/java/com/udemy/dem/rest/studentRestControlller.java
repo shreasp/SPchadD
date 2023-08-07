@@ -14,7 +14,7 @@ public class studentRestControlller {
 
     // define endpoint for /students to return list opf students
     @GetMapping("/students")
-    public List<Student> getStudents(){
+    public List<Student> getStudents() {
 
         List<Student> theStudents = new ArrayList<>();
 
