@@ -1,6 +1,8 @@
 package com.udemy.dem.rest;
 
-public class StudentNotFoundException extends RuntimeException{
+public class StudentNotFoundException extends RuntimeException {
+
+
 
 
 }
