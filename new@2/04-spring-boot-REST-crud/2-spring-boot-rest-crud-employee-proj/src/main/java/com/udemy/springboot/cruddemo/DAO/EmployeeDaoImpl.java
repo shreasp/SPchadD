@@ -63,6 +63,6 @@ public class EmployeeDaoImpl implements EmployeeDao {
         entityManager.remove(theEmployee);
 
 
-        entityManager.remove();
+
     }
 }
